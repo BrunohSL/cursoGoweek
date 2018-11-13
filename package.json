@@ -8,6 +8,7 @@
     "express": "^4.16.4",
     "mongoose": "^5.3.10",
     "mongose": "^0.0.2-security",
+    "react-native-cli": "^2.0.1",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
