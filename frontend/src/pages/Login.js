@@ -14,10 +14,8 @@ export default class Login extends Component {
     const { username } = this.state;
 
     if (!username.length) {
-      console.log('entrouaqui');
       return;
     }
-    console.log('asdasd');
     localStorage.setItem('@GoTwitter:username', username);
 
     this.props.history.push("/timeline");
